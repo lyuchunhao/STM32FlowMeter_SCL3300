@@ -2,16 +2,2140 @@
 branches: {
   }
 fileChange:
-  /.gitignore:
-    newFile: !uuid 'c6127b38c1aa25968a88db3940604d41529e4cf5'
+  /source:
+    newFile: !uuid '3f8982e64dd0ccc958119d235866a9249c385901'
     oldFile: null
-  /README.en.md:
-    newFile: !uuid '49b702c0e7a0e9da8c93be5a04c139e6aa72568f'
+  /source/.mxproject:
+    newFile: !uuid '3f69c1bfff3b84a210a8b462408a96894f2d6e6f'
     oldFile: null
-  /README.md:
-    newFile: !uuid '46d60ce83af34ad8e3b8901d094f7b926a5ec03d'
+  /source/Drivers:
+    newFile: !uuid '8a9251c9c52d81eb5d2bb922d9c87c48c86d081e'
     oldFile: null
-gitCommitId: !uuid 'b550669ff7427802c5ac532d10fb9fea9428c02f'
+  /source/Drivers/CMSIS:
+    newFile: !uuid 'dfaa81a900b3160643cb08e6d3b091d421871c6f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib:
+    newFile: !uuid '1d9aef0e875f61066d867f45ba14e8ed66d1cc14'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source:
+    newFile: !uuid '8aedb0fecb3a1f83811fcc65f2d604732a63f4fb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions:
+    newFile: !uuid '4415ae7e339d920851fc8b6c84c924570a4d0671'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_f32.c:
+    newFile: !uuid '66b10df4c3dc186ae162e90bfd61459a545ed9a0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_q15.c:
+    newFile: !uuid 'f0af0911833ec3810418153ad283ac2b1fc63318'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_q31.c:
+    newFile: !uuid '294ba75acf27730f224f1c4777a88516f9ab319f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_q7.c:
+    newFile: !uuid '54c6f710ac6476b596e3cc6d5586d83ec3381ee0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_f32.c:
+    newFile: !uuid '3430e83e7f1535559f124192a28272e0189241e1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_q15.c:
+    newFile: !uuid '570aa4c80498c414d03990212ceab4103df9ff8d'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_q31.c:
+    newFile: !uuid '63d83a8e0e9c84e96d0a2b69efd23f8262e866c0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_q7.c:
+    newFile: !uuid '66e1e23ca3e509dfee2019d7440e2ec432950b79'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_f32.c:
+    newFile: !uuid 'd7f7bdcb604b8e77c2d31fcd0009ebb34bdd6a63'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q15.c:
+    newFile: !uuid '6f04ed1b6a9a20645cef70baa9fd70b585943557'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q31.c:
+    newFile: !uuid 'b199f8b8a38675c574ebbf9be321bbd357658093'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q7.c:
+    newFile: !uuid '0ad6ae470770604d2dcdf3fae6036426a253feb7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_f32.c:
+    newFile: !uuid '27eca680ad96ac63d5e13d5e8be9e94805797d82'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_q15.c:
+    newFile: !uuid '99e36bb33eb0711298e3edb136bb8cb6a0dd75ca'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_q31.c:
+    newFile: !uuid 'ca8b07b95c87dd86babf866909f8f423a77a9b1f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_q7.c:
+    newFile: !uuid 'c2b50b67c267c674988b361b83101b4fe07ffcf1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_f32.c:
+    newFile: !uuid '4a260b0569ab1ab5e3970b5a73888959af336a57'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_q15.c:
+    newFile: !uuid 'b130e7b593898a9dae927767e10b1d4334023385'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_q31.c:
+    newFile: !uuid '470e151c8c116952850861721675dc93a32d20cc'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_q7.c:
+    newFile: !uuid 'e1ba06ddcdd978e1b18df07cbbcbb07b125d3d25'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_f32.c:
+    newFile: !uuid '4f3f593d131a82ea5e510267bbad8e809b279a72'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_q15.c:
+    newFile: !uuid '812475332deac54fae21225b7b558e84b6a02aab'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_q31.c:
+    newFile: !uuid '49516efb72b1679692e6116245b66c310f0fb85e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_q7.c:
+    newFile: !uuid '111b9b4212324c926519bd75c9b411c5ad3659fd'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_f32.c:
+    newFile: !uuid '2c4febc91a685e2c78e078ed113204f751404098'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_q15.c:
+    newFile: !uuid '4587cce23535c7a803d37d2d59ce88c8526fd5b6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_q31.c:
+    newFile: !uuid '2dba5bd7976900a8dc39d6aab04c870ec810aba8'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_q7.c:
+    newFile: !uuid '330c739c4eb95ec2bbbba0e862042f283d0afad6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_shift_q15.c:
+    newFile: !uuid 'b2d27e60c1ed01730e94dfd5c8a0d8f6c6cc3ed3'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_shift_q31.c:
+    newFile: !uuid '599049111c9447dcce41d0884bd47ec7a21e9214'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_shift_q7.c:
+    newFile: !uuid 'f92505401ab4f8d69e263984f274b6a30112f771'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_f32.c:
+    newFile: !uuid 'e7ff234ad3767d912d2082851f8841d230535176'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_q15.c:
+    newFile: !uuid '420db7f708fd92e2b5fefb6b2f67f56842723c48'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_q31.c:
+    newFile: !uuid '40ee7e1035e9532818cdf19b32fde8a7a6e291ed'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_q7.c:
+    newFile: !uuid '2a2cb5e3385dfb434a02930d35813eeef37c7719'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/CommonTables:
+    newFile: !uuid '5f5d6cdea8bcda12d21cf2de8c365dc8bd1e10b0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/CommonTables/arm_common_tables.c:
+    newFile: !uuid '79fe976e17f7900817bb8033b910e41410d45d1a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/CommonTables/arm_const_structs.c:
+    newFile: !uuid 'f05c1c2f22a4134d1d523902528224c0a8812398'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions:
+    newFile: !uuid '23ad3fd816fa5b2f20a8169adc5234c96fd9c162'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c:
+    newFile: !uuid 'c54ae41da7e4555bb348602315c98c82e33610bc'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c:
+    newFile: !uuid 'c1ce26cb79c80d2635eaaac577a68db0382cd121'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c:
+    newFile: !uuid 'f882f4cdb7da719cccc1810823df224ce65d5a51'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c:
+    newFile: !uuid '1a6acb87f9f4bb636dead4aa6b341375aff09efb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c:
+    newFile: !uuid 'd794e2c329e04f2a0b144f28b40e940b3ac8732c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c:
+    newFile: !uuid '6eeafc10320de1f733efb8b6cc504a3c5521c957'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c:
+    newFile: !uuid '497348b385e4b0833a6fe3e2aac1d1f339d3daf4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c:
+    newFile: !uuid 'bfe2a5dc510a09923672a224b04012df3e8323c5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c:
+    newFile: !uuid '109167390a73e4c15a056e85489849b0a26c65fe'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c:
+    newFile: !uuid '5bf3f8068b2f9808f11887e144e07b28f2851106'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c:
+    newFile: !uuid 'f5148ba644dd9551fd9c19dcc78ab8c7a0df5ba9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c:
+    newFile: !uuid '2cc0b1f37733b37a27e6826637d320ef62e07086'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c:
+    newFile: !uuid 'bfb7d51c3dea657316365fd8867ab306d6734d6b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c:
+    newFile: !uuid 'df6eac052155dce0fabc4a75649ed89d367fa5d4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c:
+    newFile: !uuid 'ec6b9475162071cf1cdda74d53e34879dc7713f6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c:
+    newFile: !uuid '04e8ecaa64269bd5b03fc6fb210df9bdc59d6c3c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c:
+    newFile: !uuid '51b2f863f53e28ab4630c7578923374555c10130'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c:
+    newFile: !uuid '73db10777f61722cb610c9fe21a96d7608638bee'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions:
+    newFile: !uuid 'a831d7a59dc806ed84b925a52942a88129d25ba7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.c:
+    newFile: !uuid '2bc1854efaac29f9165cf784341c4447f7e4d3fb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.c:
+    newFile: !uuid 'c163901bce7e5ebf4bce90d026a66c9d51586b96'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.c:
+    newFile: !uuid '012e87325e0d485c4df755b9d2c422af1684e9b2'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.c:
+    newFile: !uuid '081cf0cd94b0f01fd736a533b7bd168e6aa2ded0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.c:
+    newFile: !uuid '4dfe4198fb8975213e27552cfa08aa7b0978e80c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.c:
+    newFile: !uuid '540a54a5f621c329a4f197f8073c6b6c6bce38f5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.c:
+    newFile: !uuid '37d63a8b27df8cc2fd68938c2e159f093fb81316'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.c:
+    newFile: !uuid '5e11b0f9be04e345a06a94678ea682487b41531e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions:
+    newFile: !uuid '411e34b206e8430fb7b1efba6889b032cb992fba'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_cos_f32.c:
+    newFile: !uuid '890f37af6d798faf15fbd3a172564df6969e1f5c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_cos_q15.c:
+    newFile: !uuid 'cb6926834d671140eab2084d46de09bb7f999aa5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_cos_q31.c:
+    newFile: !uuid '72c51e6e229f3c5c528a2150fcf6f0d2728ba60b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sin_f32.c:
+    newFile: !uuid '8655cf9b8346f4249ba2ea8d05e02fa319b18aac'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sin_q15.c:
+    newFile: !uuid 'e2209b3926dc7d5f26efb5f33035687810106351'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sin_q31.c:
+    newFile: !uuid '606ab66dfdcaaad7dd3bf7d8cbde3be3b4ed44b6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q15.c:
+    newFile: !uuid '3085deccd9c4e034570ccd34e598123ae10845fd'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q31.c:
+    newFile: !uuid 'a9a0bf489914bd6776402b00d997063e42887a61'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions:
+    newFile: !uuid '5188fd5845375a622acfe1ef008351f6e8e639ad'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c:
+    newFile: !uuid '9f4ab2ff5d48c475f960fe6381d4a6a652770801'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c:
+    newFile: !uuid 'a44d10d54b2fe635c3fa25de5c6adb8ae84d3dbd'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c:
+    newFile: !uuid '83e9f7673627bd0c7a1c8127bbff32dc287d2515'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c:
+    newFile: !uuid 'a637b037a17de3b74b1aa6615ddd0e2301c935df'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c:
+    newFile: !uuid 'b135b2efc1c1c8e9dcaad5c624cd3229e6956524'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c:
+    newFile: !uuid 'fab57d6dd41eb06afbab6cdff8f25aed62153fd7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c:
+    newFile: !uuid '0dbb6d1c00f5cbf52ce6c1da5073d6c63beae4d4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c:
+    newFile: !uuid '96ae6f9f7e46250e211c1d6e82eeda804f6b02cb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c:
+    newFile: !uuid '8cfc53400a64f5a2c6743f9b88dcc5e5f4dae576'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c:
+    newFile: !uuid '35f2124be328b033f8b080454e70fddff1eb48fd'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c:
+    newFile: !uuid 'fc15e3cceec4b48e16906ffc8a4e922b10e755b7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c:
+    newFile: !uuid '265bd3a591cde912dc7f697ffe0e2358adfff358'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c:
+    newFile: !uuid 'd9011fea710077c61469ff06e0d8563103a382aa'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c:
+    newFile: !uuid 'c6065e92907eab7cc2b6c5dd8ec491fb14de8557'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c:
+    newFile: !uuid '481197366ac0a4a41235bea49dcda462e37b8907'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c:
+    newFile: !uuid 'b19587a0708e7f8e8f7ebe9e1c29ae751d1f79ea'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_f32.c:
+    newFile: !uuid '1fdc6a174c618c592ee001fb97c458794c5865d1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_opt_q15.c:
+    newFile: !uuid '70f1bfc19a078eff03dc1ef9ca6e39da89f5afb5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q15.c:
+    newFile: !uuid '44f19bb6912b71192a5ae154f6c16ede5c510b73'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q31.c:
+    newFile: !uuid '4111a1e8b3c0cb1d3de2ae7e50e4d84e770d9e96'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_opt_q15.c:
+    newFile: !uuid 'dffa2de7441b8cd9dfa0e5670b993a8bda6d193d'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_opt_q7.c:
+    newFile: !uuid 'b77afbe4ec2760ee5c64adc3d9f932d56461699f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_f32.c:
+    newFile: !uuid '226ffd574ccc147b79406a1e3e852881d81f0f4e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c:
+    newFile: !uuid '194246f0d5b57065d71b6050444beeb03dd028a8'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q15.c:
+    newFile: !uuid '794879e8d2186a58402668cb058a5f9b2e2c89b9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q31.c:
+    newFile: !uuid '46ef94d24ee0e266c636318873d89505031bafcc'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_opt_q15.c:
+    newFile: !uuid '0734938e39f8793912347f4f75a1527a5c689fef'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_opt_q7.c:
+    newFile: !uuid 'e8fcce5bb4f5c14cc180faa449dae367e368d532'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q15.c:
+    newFile: !uuid 'c2979891697d5828f7f9f5958924f2535eef4814'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q31.c:
+    newFile: !uuid '98fc654bfe5a655f3712db0a4122e0fede4804c1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q7.c:
+    newFile: !uuid '65eaceaa660193f49f2e1635ddc09fff0df92132'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_q15.c:
+    newFile: !uuid 'a3c37746b83043a78895cce96ebafa72ecbcec94'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_q31.c:
+    newFile: !uuid 'c108bed1524570a72b8255844ecb966adaf0907c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_q7.c:
+    newFile: !uuid '12a00554578195a4c2eb43278d8bdb2cc0e0ff1c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_f32.c:
+    newFile: !uuid '6a8127b80fd9cc1b0fe78f1b4ced82eb4e882c6c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c:
+    newFile: !uuid '7aa289fd0a132538b37a4922d5705afbecd2f6e7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q15.c:
+    newFile: !uuid 'd15bb1dcfeda854ac1812cd34efe7b4e801a6fd1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q31.c:
+    newFile: !uuid 'ed8efb72802a55a60d112069db8ff59657235e24'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_opt_q15.c:
+    newFile: !uuid 'ccb8652aca10d6feee4477f59f586348a00d406b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_opt_q7.c:
+    newFile: !uuid '2f62f6067bc20178c6811ece1531732ef705c2a9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_q15.c:
+    newFile: !uuid '3003f75193035c49636dc03550fca32b0882c9c1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_q31.c:
+    newFile: !uuid 'eaab75f750e0f5b79faebfcd640fd0c75bd732ab'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_q7.c:
+    newFile: !uuid '6adef05e316598585040d390857b59904835ea85'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_f32.c:
+    newFile: !uuid '159297396d958ef8a3f015874c1e4e33f8db95ec'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c:
+    newFile: !uuid '8ae0d2e049b459d8af3dd54f4ce5ab33fb9d237c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c:
+    newFile: !uuid '4f012696db05e62f01dbd6befb4c68adc5abcd02'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_f32.c:
+    newFile: !uuid '78965103cbdc7b28cab2e516ab04d74eaf4b2042'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q15.c:
+    newFile: !uuid 'a3fad6b810870e52ffe95c69f8a7af9d6fc10bef'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q31.c:
+    newFile: !uuid '9d332f316de8e86a2143ab841e401e662dd34440'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q15.c:
+    newFile: !uuid 'f3a6a4a2a1131b269c60dd579764edbc02e697de'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q31.c:
+    newFile: !uuid '5696b2315c8b548b39ae385af971e2e3ba57d8db'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_f32.c:
+    newFile: !uuid 'a827e68d3dcdbb7640af18e5a9ff5a4510bbb96b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q15.c:
+    newFile: !uuid '72b506351a4817de726f5da3e1a329edfb114f9c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q31.c:
+    newFile: !uuid '13073c43533d8b9150d74e405e87ad01edbb183f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_f32.c:
+    newFile: !uuid '34cf7ea02ec4936f83261566b61ea4768cfa7465'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q15.c:
+    newFile: !uuid '7eaab235d16da594357702a4a5f535f684fdc961'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q31.c:
+    newFile: !uuid 'c2092e0263d83143f2add8be6266c2200f69b68c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q7.c:
+    newFile: !uuid 'ccbc7d73c2c6a17594caf03466e310a79ab3b8f0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_f32.c:
+    newFile: !uuid '5ad249e3888d4e90083bc6d2c2f6ced170bd95dc'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c:
+    newFile: !uuid '085cb578788f3f8a121e8f10df53328d31a95558'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c:
+    newFile: !uuid '998952262faf02bfbad31fa4e8aa623ad61fc0e1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c:
+    newFile: !uuid '1887524d5723f54ec5c3ca03d7930912d84f8ea4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q15.c:
+    newFile: !uuid '34c085ae90a652fd9b354900ceb83c6f4aa2551e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q31.c:
+    newFile: !uuid 'a4e91b060fc9d32eebf469f260a50491e80540a4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_f32.c:
+    newFile: !uuid '4be468c7d78edfe4046e2c6857fab7eba75156f9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_f32.c:
+    newFile: !uuid 'c6aa00d9bd7ee94d66f1ffed6d432a98fefe6d69'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q15.c:
+    newFile: !uuid '34f3333692c9d1c4cb6da161f46faa69eb1681ba'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q31.c:
+    newFile: !uuid '786152f9095274a8d95de49b41049ae8c9c68ee8'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q15.c:
+    newFile: !uuid '044a500df6692d983dde8c00ce869ac0b629cad9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q31.c:
+    newFile: !uuid '4a64538bc4426c8d987456f76343ecbd4256c3c9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_q15.c:
+    newFile: !uuid 'b0d3d09b4bfbc8b988018882919f544fd8c282c8'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_q31.c:
+    newFile: !uuid '35360595b8f0f4afa268be5197209e6874f9bbab'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_q7.c:
+    newFile: !uuid '24a50dcd2d1c5bbc1a7ef968f12829549f992ea3'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_f32.c:
+    newFile: !uuid '9ef8edf95afe539ab27d0a279b78fd140c5a2174'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_f32.c:
+    newFile: !uuid 'a0fa81cc096c3d7cd973a732cb66dbbe3307a0e5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q15.c:
+    newFile: !uuid '41bbd7e5e67b489c7a457ab142ee206102c94b80'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q31.c:
+    newFile: !uuid '8250550454d2525ac1f304f8f140dd54a1c933ce'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q7.c:
+    newFile: !uuid '6c495a49ee244251ac56d115e7623a89f45ee0dd'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q15.c:
+    newFile: !uuid '2366685355582b6dd172bc371a07f20f5cd0e18e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q31.c:
+    newFile: !uuid '2183cd3a96afe87b0b8e4b7ec68fa66b124f403c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q7.c:
+    newFile: !uuid '9f43580b72fa133f4f4ece765233179cf97bfda7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_f32.c:
+    newFile: !uuid 'f3056f4dfc2c9d612d2bc9579ea414c8f3a76291'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_f32.c:
+    newFile: !uuid '89bfb68659a37bbf12fa533ba05268a0b603c641'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q15.c:
+    newFile: !uuid 'bc5c0af8f3881f5a5cb86b7e51599df9ab7f393a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q31.c:
+    newFile: !uuid 'd8e26a37e748c18bc6321196e32f738a76b60136'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q15.c:
+    newFile: !uuid '5bee62d36f64107f0739ee8856d0f080f52984e4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q31.c:
+    newFile: !uuid '347c857b74880e0d75f52f62c4eaaf420f8ad6be'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_f32.c:
+    newFile: !uuid '269330cafa5a091753f596091fd492255dc5e82c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_init_f32.c:
+    newFile: !uuid 'a347ddb70c3a840a100cc0563e866dcd655765a7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q15.c:
+    newFile: !uuid 'cac7dfc59b34b3918290ab2d4537687673023afb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q31.c:
+    newFile: !uuid 'd425557b40f10b99850f76bfc54caaad4da3f3bf'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_f32.c:
+    newFile: !uuid '6e3117fe4820d7b31a8dc978d5ad024b4c152568'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_f32.c:
+    newFile: !uuid '2c23315e99a4d684509f32f64e6b688e2de74c99'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q15.c:
+    newFile: !uuid 'be3e31f65c29b7be2367f939bfc0c05497339841'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q31.c:
+    newFile: !uuid '9ada3a002a10071bb6921a81a334fcb29ed3a917'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q15.c:
+    newFile: !uuid '208a9d88fac07056c67700168ef7f57cf94fadf7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q31.c:
+    newFile: !uuid '3d990e3f0b2ec07994eb4b6d1f43588f46c8cce1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_q15.c:
+    newFile: !uuid 'c0d465a87b33c8e648e5304be1ed5e9285a9472b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_q31.c:
+    newFile: !uuid '53c57f02172a525ef88d0ab2a51fd0583e536d88'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions:
+    newFile: !uuid '8127882a5462e5bd0a77f77b1d5d8b56def67044'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_add_f32.c:
+    newFile: !uuid '123f9e9affe3e4721a9e3a58f393441e46e2482f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q15.c:
+    newFile: !uuid 'ef7f869744c3d112415a34fed60bba28250f3ab1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q31.c:
+    newFile: !uuid 'de02d70754cdddb0a3cb833f60565892e5cab820'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c:
+    newFile: !uuid 'dd41e7c4cff154a904322bd14779c8e164b4e03b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c:
+    newFile: !uuid '8e3fc06c2b84d5139774d698254220c6664b698b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c:
+    newFile: !uuid '4dfe1fd56ec465667746f4127063c7d5f41b1c11'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_f32.c:
+    newFile: !uuid '1a0e5e86765d3e871156e9cbfe49a2c4fc57bba5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q15.c:
+    newFile: !uuid '33f2f78574a1008f782e3c648a90bbd05fe9f609'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q31.c:
+    newFile: !uuid '27c451a202baacbf4414825c527ef6082841f80c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_inverse_f32.c:
+    newFile: !uuid '40b67ad8fa9aa98b5e5073db9166e5abfb79dd51'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_inverse_f64.c:
+    newFile: !uuid 'a6c4980e7a45bb9121f3c6cdc6cac8f8dc030456'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_f32.c:
+    newFile: !uuid '55349de7cd870e1c190d4a88788ef9bda398f6bd'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q15.c:
+    newFile: !uuid '11139b8a9c160530d98ce16844670a5cfa3af835'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q31.c:
+    newFile: !uuid 'dbc314100ac6978247574d647ba88dbceb6eb566'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q15.c:
+    newFile: !uuid '9e8d26dd2a01ebdc87fef0b8e19cec61a0e42a3c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q31.c:
+    newFile: !uuid '6c97eef1544b5edfb747c0840c34249522cf58cb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_f32.c:
+    newFile: !uuid 'b7be4cea87006ec2dc16d798010e656a88db6e8a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q15.c:
+    newFile: !uuid '4e67cf92f8e03c3267e466f122cca1af63f0cdcc'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q31.c:
+    newFile: !uuid '845f30617fcb412f007f2cbb0d7431ce41cdb2ee'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_f32.c:
+    newFile: !uuid '5451a3a5c60f432d1173115415052b68ee1abf99'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q15.c:
+    newFile: !uuid 'cc5a7b9a98865cd87c74586e5b44bf152fbec3b9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q31.c:
+    newFile: !uuid 'd5ac2064d9f9d24fcfcf16a94a853cbc4df2b646'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_f32.c:
+    newFile: !uuid 'f5cd4565d1ca7505e82593f0f599b8af4784dd6d'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q15.c:
+    newFile: !uuid 'c4656bbd8a75a7bc631bf016cf423a162b19d465'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q31.c:
+    newFile: !uuid '459700a09822f2c7ffb450142c3748de6b982581'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions:
+    newFile: !uuid '5b38b7792df59a5d565773c0e61bb89128c68def'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_f32.c:
+    newFile: !uuid '6a1ad3966eb4a2e3112a970c6c7de55f6275e257'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_q15.c:
+    newFile: !uuid '9a59726ebf0053b5b151e87b8d611a162d0c6a8b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_q31.c:
+    newFile: !uuid '8a95cf19706bba0407645a67aec544833a407946'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_q7.c:
+    newFile: !uuid '07150d62164041e0b32870fd06081995aa2e6cd6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_f32.c:
+    newFile: !uuid '3e699d3c1a30d1dd516ed33b07daf9e594570cb6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_q15.c:
+    newFile: !uuid '22ea8dc5e2467872e9ef2d8ad455f77ab3ff3278'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_q31.c:
+    newFile: !uuid '9f80d842d62da31257dfdcb7e1d2b061d2e8b3d9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_q7.c:
+    newFile: !uuid '31a35167983e160e9f26288a656e878970f2d388'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_f32.c:
+    newFile: !uuid '7b6504c148132c0cdb6e1530dffbc0b6d4216ade'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_q15.c:
+    newFile: !uuid '88401b7c289cd468ed50401c2e56e8cb19ff5226'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_q31.c:
+    newFile: !uuid '01746b6217713186f5092db3064b8e61f27265d2'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_q7.c:
+    newFile: !uuid '587afac1183e9675f71bd8eea25b21d2ea795a6f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_f32.c:
+    newFile: !uuid '564d84ea453ad0d03e6aaaff23f0a3d84fa047a1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_q15.c:
+    newFile: !uuid '02c41093b757baee76fe58c2126ff5e17827884a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_q31.c:
+    newFile: !uuid '75c6314166ce75e480daefb069fb5293885518c5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_q7.c:
+    newFile: !uuid '4f381566b4d5b3da814abd1db368880c2ad9cec4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_f32.c:
+    newFile: !uuid '5f935379f33d5cd77ca2260875366ea1524b4557'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_q15.c:
+    newFile: !uuid '3f335a23e2419a99d4d2e6c3b54641db7ee188a1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_q31.c:
+    newFile: !uuid 'eaca28d7f7d0419c416ff6fbb5b6d881d8510853'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_std_f32.c:
+    newFile: !uuid 'c73c707f34aa2ae4a866cb6ae0f7d988f177a324'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_std_q15.c:
+    newFile: !uuid '24054d34b73c179c141dfbc5cb6b6a5020fe130e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_std_q31.c:
+    newFile: !uuid 'f324273a5015e83650f2a3d7ef2c52e1decccabe'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_var_f32.c:
+    newFile: !uuid '5f0ea7d709df2e51a65030d6eb4fabf83ff74908'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_var_q15.c:
+    newFile: !uuid '94fcef9acf2a9362b6c3080a4c5d4b2c895855bc'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_var_q31.c:
+    newFile: !uuid '6b9e2287e8a2c24595e11d5c8bb7c05096c85701'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions:
+    newFile: !uuid '60a908e8fe73708f045846a0964783ff5922d90c'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_f32.c:
+    newFile: !uuid 'd6c846b68747d147b8a873591f435950417dcc9f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_q15.c:
+    newFile: !uuid '5c6a391e3c45c15a548d9e7235a46c6bc1a10994'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_q31.c:
+    newFile: !uuid '0308cb84c25b35fe3b28a1a3791e0252d516342a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_q7.c:
+    newFile: !uuid 'e27314407cadabb9f1c7b8d91d1073ee8221287b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_f32.c:
+    newFile: !uuid 'c8ea2dcdd5a5042efb5297e1a7a387a2c0616485'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_q15.c:
+    newFile: !uuid '5b306a9b0981c018b0578ae2abc3a7fd721e6a35'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_q31.c:
+    newFile: !uuid '84068b2e9924463cfaf9acd6bacd2aff00dde058'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_q7.c:
+    newFile: !uuid '88ced5057e28e0edfb64a7eb14c3a078de420be7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_float_to_q15.c:
+    newFile: !uuid 'a2c486f441948c36aa742eac109a484d15ea799a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_float_to_q31.c:
+    newFile: !uuid 'd64609e7adfb6825c9c3fbe29696af0d17d5c8e9'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_float_to_q7.c:
+    newFile: !uuid '7ecebdfa025576b575bc24b87dfd2e3dc8da030a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q15_to_float.c:
+    newFile: !uuid 'bbaf38c15d643a7958238e936aa0443c752dd3af'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.c:
+    newFile: !uuid 'f046427d3b1ec2e88eab9033054576ead8114cf4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.c:
+    newFile: !uuid '9b91c362f790c93a69e43d2aecc963fef6a7e5f7'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q31_to_float.c:
+    newFile: !uuid '5949474161a251eddc8c2c223aa04d75a6f6a929'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.c:
+    newFile: !uuid '33222bc26c839dc7db1a130a3892795f4b364cf2'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.c:
+    newFile: !uuid 'd90898a3429718d645deb1766b62968eac0d16ce'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q7_to_float.c:
+    newFile: !uuid 'f984cf003add72ca8f9257f6c4f2704fa1100673'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.c:
+    newFile: !uuid 'bba084c1424b83f09e1d5f983964c02cfa608136'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.c:
+    newFile: !uuid '0519d92d94ea73bfe0419b0fc665c9883cb843ea'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions:
+    newFile: !uuid '9808a42581006a3230b9aa4c89b4113c57a902e1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_bitreversal.c:
+    newFile: !uuid '0404ea840a205296c56187b9eccad2126c774504'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_f32.c:
+    newFile: !uuid '5fb21b5ed9b6178afacc6a2885ad8515069f974f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_q15.c:
+    newFile: !uuid '5a313b2f2157bd4a76d2fc5c9b8548cccccd96d2'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_q31.c:
+    newFile: !uuid '20ad7e786935678ae8c961b313d07cba1849d771'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_f32.c:
+    newFile: !uuid '8e3b77ca00918eab8f0fd3692475ffb89039eef6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_f32.c:
+    newFile: !uuid '55d2a71c272bf38af1b18bffc87e9e51b36a63d0'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_q15.c:
+    newFile: !uuid '3949140ed6908dcd2f1973bdc7cd7d9e970b8702'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_q31.c:
+    newFile: !uuid '3ce6e5d3bf4087e6745368977fd01824d2875b58'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_q15.c:
+    newFile: !uuid '74d821a9ae2b67184fee70d7cdaeee19341016cb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_q31.c:
+    newFile: !uuid '6ed9a8085ad3ada7840ad6ec91f6aa8b95815a9a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_f32.c:
+    newFile: !uuid 'c29927c3629e85662cef5a6d2e5ef56a5af3ef8a'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_f32.c:
+    newFile: !uuid '1e1ad7ca09de495daeb09ab132e5bbc181afcd4f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q15.c:
+    newFile: !uuid '7f29d6756e7a8aa68e1b40635f8517fa70306a01'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q31.c:
+    newFile: !uuid 'a375a5f5e914fe80b7cca438404379a21348f9bb'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q15.c:
+    newFile: !uuid '761e43e152f6666af8c712454f65d9637d0c75b6'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q31.c:
+    newFile: !uuid '0fbb40b62c2260c14f6008a1a38dbcb744913516'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix8_f32.c:
+    newFile: !uuid '7ed8fdedf1a1200c0c1ddc10f21712b82ede113d'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_f32.c:
+    newFile: !uuid '5ee7efaa8c8017f7c38dc5f4dabfb8b738838b89'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_init_f32.c:
+    newFile: !uuid 'efc6501e62cd07d6a1de47b902d55e67adb95e24'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q15.c:
+    newFile: !uuid '7a78aa8eb8e300a5c826820a0edd57f559f923b5'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q31.c:
+    newFile: !uuid '1aa9081f381e7226ff76de8b1c578d962c14e68f'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_q15.c:
+    newFile: !uuid '38131d5a92f449733c9071a2ccece9d4fedb75a1'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_q31.c:
+    newFile: !uuid 'b8ec1518396175817cee0b605f5cb58e448b173b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_f32.c:
+    newFile: !uuid 'b72f8fd941c3f1240ac3c5dd39791ad06c710b1e'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_fast_f32.c:
+    newFile: !uuid 'd4970b6b357e1a96b58be9ff68d8c220f60df298'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_fast_init_f32.c:
+    newFile: !uuid 'ba66980def82f760969937eff470fe7a47a66635'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_f32.c:
+    newFile: !uuid 'b9b5004961fe8061254c1075d6690c82e61d631b'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q15.c:
+    newFile: !uuid '31b97b49742e88316bb5a4484673553aa80498c4'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q31.c:
+    newFile: !uuid '8ff254c0ef2553cfae648475c02511fc7be52876'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_q15.c:
+    newFile: !uuid '6e76b9c257611fcb173df75e2ae17d3d368277a3'
+    oldFile: null
+  /source/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_q31.c:
+    newFile: !uuid '71bba21797c529b7076c9a05bd4996787028e19d'
+    oldFile: null
+  /source/Drivers/CMSIS/Device:
+    newFile: !uuid '357fb5cf2b354eac367a9b661ac4ee8c39468aa2'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST:
+    newFile: !uuid 'd8570576bf744cb1180c2712014d9b02264f0bc5'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx:
+    newFile: !uuid '72d8f1926caa4e1c2e23114ffab19a6631104ac4'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include:
+    newFile: !uuid '80061d9473ef613d653e175e0faeec91ae24e4e3'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l100xb.h:
+    newFile: !uuid '23ee98bfad5a4ae4a874c4caa7d25aebdbe3b977'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l100xba.h:
+    newFile: !uuid '0f6ab5c05151ce90e5a2736934161b8a31f36911'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l100xc.h:
+    newFile: !uuid 'd959d0c3f34e89a40b0097cf1d35fedc11aad66c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xb.h:
+    newFile: !uuid '37ce23164cbc97ff49a74762122228f48210e0af'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xba.h:
+    newFile: !uuid '59ed67cb9e3ab2290849c9fcb36b6b945cc13c9b'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xc.h:
+    newFile: !uuid '482e9427546550eeb4a69608c084590a0ee51a61'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xca.h:
+    newFile: !uuid 'e28c4dadc53361f51eca5932010d0ac545988204'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xd.h:
+    newFile: !uuid '1a72ca65e5ee5640643d8f1d2bbada793bdddf0e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xdx.h:
+    newFile: !uuid 'b78d360b86d6fc0ff1f51fb29142eebaf05b63d6'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xe.h:
+    newFile: !uuid 'f6984242d694fe242182f45bceff00de9efa0282'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xb.h:
+    newFile: !uuid '1f07a091b52f5d09f0dc3055c2c2b2dd6c1022ad'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xba.h:
+    newFile: !uuid '1365da451fa3c736a1a8933c9cfc395b85afdb43'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xc.h:
+    newFile: !uuid '418d6b6efe7d32d77b675e656f6747ba382015b7'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xca.h:
+    newFile: !uuid '27851f04cd75058fedfa2c06d71ee80b5350160f'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xd.h:
+    newFile: !uuid '8061bc76878666d78251059dff3ec6ff51ad637c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xdx.h:
+    newFile: !uuid '83664d5f50c36e852f2fae647ae497fc6f1e5d4d'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l152xe.h:
+    newFile: !uuid 'daaf042e5b77c4bf1011fbf476639cc7282386b0'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xc.h:
+    newFile: !uuid '7a8b093ead6e6c90dcd074337f0215d96e5ba3c3'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xca.h:
+    newFile: !uuid '18a0c2e36ded3bee509ad28aa3757c78b61ae538'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xd.h:
+    newFile: !uuid 'fbade14e3201a0fa8e575e3fa15da21b791c1cb4'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xdx.h:
+    newFile: !uuid '5ee97010add714749741ce0591676a5f97feed82'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l162xe.h:
+    newFile: !uuid '7b0b1d8028e934750f65e7fa875ddf1a78243fac'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h:
+    newFile: !uuid '188975d6d3393d68e1cb11f9803337920d89375c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h:
+    newFile: !uuid 'ca89d61fdb86453477aa3ae0013752ffcbbfee6e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source:
+    newFile: !uuid 'b16022d8354c343fcb9ce64357be4c85376182f2'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates:
+    newFile: !uuid '7485ee14223442735dda24113b96cfcc76d7617d'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm:
+    newFile: !uuid '1902c374f36850ae19bae6820df91d4119e1549f'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l100xb.s:
+    newFile: !uuid '4a3fc32c6a574e11b2587ca7d82a4241a45cc988'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l100xba.s:
+    newFile: !uuid '5aa73bf99ce3ed034009bc568fe58f337ca9cef0'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l100xc.s:
+    newFile: !uuid '6172af700f7cd992c10eaf4153e4a479d45dbc62'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xb.s:
+    newFile: !uuid '666df3e7ce4e219d11e13459b925984ea4b8f4e8'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xba.s:
+    newFile: !uuid '73836f0d430019807d129165cd4daea4fa3a7b0c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xc.s:
+    newFile: !uuid '386eb773d82e102c77479db274cfe34fb0862593'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xca.s:
+    newFile: !uuid '010a3b838a8824361a86275ed4185a2218cb46f2'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xd.s:
+    newFile: !uuid '43e0305a4c3197c9809cf8c67a1c69f28733e689'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xdx.s:
+    newFile: !uuid 'bd8a8fccc5d26da506831bf265e9b84c1040b415'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l151xe.s:
+    newFile: !uuid '98623dfaff969b0deb94dacd41cc9b0ab5ad27a8'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xb.s:
+    newFile: !uuid 'a1e2da58fd713a14bdfb67ec1df55bb8d62fe61f'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xba.s:
+    newFile: !uuid 'b368c7c9f031516fd652a30924cc8c902e1ef87b'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xc.s:
+    newFile: !uuid 'f3a3f8454ee9cf2c5a32ea4022ab249a68b2b3fc'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xca.s:
+    newFile: !uuid 'f2474d6745d2296f29f01092a4d72ade4bee2400'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xd.s:
+    newFile: !uuid '227ac1f2d3e82a9a7315efac40f5c7b258204b56'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xdx.s:
+    newFile: !uuid '9ba9a7060e060c3022074d651ec1f3e710fa32e5'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l152xe.s:
+    newFile: !uuid '53f2e2e7cb852eb543681d03677ed3fb482ac7ee'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l162xc.s:
+    newFile: !uuid '3d376f8a20e25eb6b8073259f9d902a216cf6548'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l162xca.s:
+    newFile: !uuid 'bbc7da2c6c86abd35f75f5e9ad1248f85efa36fc'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l162xd.s:
+    newFile: !uuid '3707df4e76e4605869a23c673b22a720aca02dca'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l162xdx.s:
+    newFile: !uuid '72c6261a3652270a93b306c0bccd1a3450123869'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/arm/startup_stm32l162xe.s:
+    newFile: !uuid '96b6655c263828f5e822ffe8062b41cdbe3a71ee'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc:
+    newFile: !uuid 'e5ef79e7ca47c1f8212dfd311129538f23b85e4e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l100xb.s:
+    newFile: !uuid '6894415bdfe5ba6f2ac2f10cce22f38f1dac0cac'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l100xba.s:
+    newFile: !uuid '0381e09984098f67c204235175014a3538218d09'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l100xc.s:
+    newFile: !uuid 'c630b051eea249f1e6726fb958dd1b82e3eda6ee'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xb.s:
+    newFile: !uuid '6c9778931cf3bcd0227785a2ffb6a5f8d0413485'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xba.s:
+    newFile: !uuid '52ac1555b0c3a240db0f910575fc6139a8ee2996'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xc.s:
+    newFile: !uuid '41f7c9898128e56d7a89ef2f6771cd7eac5306f8'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xca.s:
+    newFile: !uuid '1aeff24f3573329eca1f0b119cea4354f1f2c809'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xd.s:
+    newFile: !uuid '42d7aeddfd5109d028637728392e275599fc962e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xdx.s:
+    newFile: !uuid 'bfa1b3cb2d19e98c75c6dd06529ee6053b5096c1'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l151xe.s:
+    newFile: !uuid 'b5c8d1291771b3d4ed638de7c7a1f43336dcca10'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xb.s:
+    newFile: !uuid 'be635977624b5a9589f4eccc5f0b78d8c5b4545a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xba.s:
+    newFile: !uuid '01551001bd7281b3351f788bc49899ad3830bada'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xc.s:
+    newFile: !uuid '66ab8dcb7b66fd8ccf0d1bbe47b1ee454fd5a411'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xca.s:
+    newFile: !uuid 'c054dc6c836e269d8f478da27166cf43d41ef8ac'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xd.s:
+    newFile: !uuid 'd0ebc0c06bf8bc0414cb4ec4aae86f9b778808d0'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xdx.s:
+    newFile: !uuid 'e991436ee1c67907cc7beaca7df5038fab7df991'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l152xe.s:
+    newFile: !uuid '7a608b0e95bae45a97ee9c90d4246b1cfa735e87'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l162xc.s:
+    newFile: !uuid '9ff07b30460d7ee92a7f665095c7f4d8559ac313'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l162xca.s:
+    newFile: !uuid '5bef4b178c6af88c6ee1730125bb573958ebfc95'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l162xd.s:
+    newFile: !uuid '3e33edcba54c20c0c5a6a4b3072a5122fd5fc008'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l162xdx.s:
+    newFile: !uuid '6c7b42109c5c525e0ca83dffc552c5ef20481793'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/gcc/startup_stm32l162xe.s:
+    newFile: !uuid 'a7291aa7beb2a703c27d3bf53e5602d322898a52'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar:
+    newFile: !uuid 'f92bc613a088954a1a4b062e352e166b321980b9'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker:
+    newFile: !uuid '7c6b928f5659e3aa24379672e5141f74e3fcef9a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l100xb_flash.icf:
+    newFile: !uuid 'eb89a1ff326d8510b84ab7c0974bfa4b3c0eab12'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l100xb_sram.icf:
+    newFile: !uuid '11eb2deb8902f89ca43137af11e40ec1b9df9c6e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l100xba_flash.icf:
+    newFile: !uuid '1f3d72abb1115e6f0d98109d870c232614af3f6e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l100xba_sram.icf:
+    newFile: !uuid 'fde12a7470c865647cf688ead2b437c4df3529b4'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l100xc_flash.icf:
+    newFile: !uuid '1d9a63d66b968659c20d25cdcba1b76518aef0f9'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l100xc_sram.icf:
+    newFile: !uuid 'fde12a7470c865647cf688ead2b437c4df3529b4'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xb_flash.icf:
+    newFile: !uuid '1f3d72abb1115e6f0d98109d870c232614af3f6e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xb_sram.icf:
+    newFile: !uuid 'fde12a7470c865647cf688ead2b437c4df3529b4'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xba_flash.icf:
+    newFile: !uuid '4831963f97812a3b2a48367b330aad0a98741c87'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xba_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xc_flash.icf:
+    newFile: !uuid '9d30b6b44cec7282651c0fe19f4423e11969162c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xc_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xca_flash.icf:
+    newFile: !uuid '9d30b6b44cec7282651c0fe19f4423e11969162c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xca_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xd_flash.icf:
+    newFile: !uuid '8287c2bac5bfc089ec0eb5a84802563fe51479e9'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xd_sram.icf:
+    newFile: !uuid 'dbba87d8f280dc577f48aad30cd96c00db6b4a4a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xdx_flash.icf:
+    newFile: !uuid '9296948c275ceb7044436ccb124106cd8a4e7df3'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xdx_sram.icf:
+    newFile: !uuid 'dbba87d8f280dc577f48aad30cd96c00db6b4a4a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xe_flash.icf:
+    newFile: !uuid 'e74819ba8743515c1be66fb58cb1924088d84f47'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l151xe_sram.icf:
+    newFile: !uuid '2cd041298003e8c290ac3bd2b56e77a7d0f1895b'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xb_flash.icf:
+    newFile: !uuid '1f3d72abb1115e6f0d98109d870c232614af3f6e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xb_sram.icf:
+    newFile: !uuid 'fde12a7470c865647cf688ead2b437c4df3529b4'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xba_flash.icf:
+    newFile: !uuid '4831963f97812a3b2a48367b330aad0a98741c87'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xba_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xc_flash.icf:
+    newFile: !uuid '9d30b6b44cec7282651c0fe19f4423e11969162c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xc_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xca_flash.icf:
+    newFile: !uuid '9d30b6b44cec7282651c0fe19f4423e11969162c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xca_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xd_flash.icf:
+    newFile: !uuid '8287c2bac5bfc089ec0eb5a84802563fe51479e9'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xd_sram.icf:
+    newFile: !uuid 'dbba87d8f280dc577f48aad30cd96c00db6b4a4a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xdx_flash.icf:
+    newFile: !uuid '9296948c275ceb7044436ccb124106cd8a4e7df3'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xdx_sram.icf:
+    newFile: !uuid 'dbba87d8f280dc577f48aad30cd96c00db6b4a4a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xe_flash.icf:
+    newFile: !uuid 'e74819ba8743515c1be66fb58cb1924088d84f47'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l152xe_sram.icf:
+    newFile: !uuid '2cd041298003e8c290ac3bd2b56e77a7d0f1895b'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xc_flash.icf:
+    newFile: !uuid '9d30b6b44cec7282651c0fe19f4423e11969162c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xc_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xca_flash.icf:
+    newFile: !uuid '9d30b6b44cec7282651c0fe19f4423e11969162c'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xca_sram.icf:
+    newFile: !uuid '736a9258f4c6be85e8e8357ff0e2081bfc99ceab'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xd_flash.icf:
+    newFile: !uuid '8287c2bac5bfc089ec0eb5a84802563fe51479e9'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xd_sram.icf:
+    newFile: !uuid 'dbba87d8f280dc577f48aad30cd96c00db6b4a4a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xdx_flash.icf:
+    newFile: !uuid '9296948c275ceb7044436ccb124106cd8a4e7df3'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xdx_sram.icf:
+    newFile: !uuid 'dbba87d8f280dc577f48aad30cd96c00db6b4a4a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xe_flash.icf:
+    newFile: !uuid 'e74819ba8743515c1be66fb58cb1924088d84f47'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/linker/stm32l162xe_sram.icf:
+    newFile: !uuid '2cd041298003e8c290ac3bd2b56e77a7d0f1895b'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l100xb.s:
+    newFile: !uuid 'cae04097c557882aeb46418bce5a3a2bf5e641d5'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l100xba.s:
+    newFile: !uuid '5115da2f434792a984fc8a115aaf52d08b6254b9'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l100xc.s:
+    newFile: !uuid '6b1cbc852e20837ecaa92775ef5522fcf182936e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xb.s:
+    newFile: !uuid '184887d45e85128705674488fa477a341fc3454d'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xba.s:
+    newFile: !uuid '09bf8c52731bbbf6e2fecc09c8bd87a1f922f64e'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xc.s:
+    newFile: !uuid 'd878e32f83240196df9d5dc9720375bc6359989a'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xca.s:
+    newFile: !uuid '716e1d6900a28750d08810f7d20ba7d1191ebe1d'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xd.s:
+    newFile: !uuid 'c0134143722a5192a068fd41f772d725e4ba3249'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xdx.s:
+    newFile: !uuid '9f3fc3c3e4660e1e0347baf8a54233f3feb686ca'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l151xe.s:
+    newFile: !uuid '4a009b14067ee95d68ae518afdb38382b248da02'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xb.s:
+    newFile: !uuid 'd991b52402362237fdc5654dbf3ba961e0979018'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xba.s:
+    newFile: !uuid '94d82a918302923965f971ee661235d0c7be329d'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xc.s:
+    newFile: !uuid '17c73fea64e9ce7a5b209d3d6c317232a0013e70'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xca.s:
+    newFile: !uuid '287c3de3b10562a34b915e8a5a18343cf3e05308'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xd.s:
+    newFile: !uuid 'b4d495c829eaa0f262d9acf7e12743d2dca25e39'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xdx.s:
+    newFile: !uuid '4f68fbc8ad532ae75294ceca7426f0c576867b18'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l152xe.s:
+    newFile: !uuid '1dafb170438a588e9f486cb2f5c2425c85451579'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l162xc.s:
+    newFile: !uuid '92e4dd75e847dd2667361454fa7887d159115fb2'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l162xca.s:
+    newFile: !uuid 'f773f075f21fb6b4d1a086f6d0834f1314941302'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l162xd.s:
+    newFile: !uuid '6960232b087dc552296c64191a0f8cc4772b7653'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l162xdx.s:
+    newFile: !uuid '7da07eca27ed36b021cb947bf3e8e1079510bb46'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/iar/startup_stm32l162xe.s:
+    newFile: !uuid '22fa1a5c58f4b59dcb9e511fd25d9c84d0ec14e2'
+    oldFile: null
+  /source/Drivers/CMSIS/Device/ST/STM32L1xx/Source/Templates/system_stm32l1xx.c:
+    newFile: !uuid 'c249b576020d2de63fb50cfc8683cbfcc9126175'
+    oldFile: null
+  /source/Drivers/CMSIS/Include:
+    newFile: !uuid '02e36980e3592af292922fa01ab32c94de33cd66'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/arm_common_tables.h:
+    newFile: !uuid '8742a5699153c3d67e998d300ecb9045ec1b5962'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/arm_const_structs.h:
+    newFile: !uuid '726d06eb692f0539165e4e0f675eab0b1f2b59c4'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/arm_math.h:
+    newFile: !uuid 'd33f8a9b3b57f9b146dc5da036b06281d17a4594'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/cmsis_armcc.h:
+    newFile: !uuid '74c49c67defb6382f28a359d5678c5996add541c'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/cmsis_armcc_V6.h:
+    newFile: !uuid 'cd13240ce360250f496f1fd8c04df7ee23c0a8c9'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/cmsis_gcc.h:
+    newFile: !uuid 'bb89fbba9e40005859e15a8d584e998cbdb6ae59'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cm0.h:
+    newFile: !uuid '711dad551702720712e7933bb693699e5ea745fa'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cm0plus.h:
+    newFile: !uuid 'b04aa3905323c5a0376c26989c1a3c9b8f3afe6a'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cm3.h:
+    newFile: !uuid 'b4ac4c7b05a799590575c0b5c8e24c51748ee20b'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cm4.h:
+    newFile: !uuid 'dc840ebf2221382b8ca8e9ed8ce72b99e4027ad1'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cm7.h:
+    newFile: !uuid '3b7530ad505b57d283cc6f07e7f51b9a54be9a0b'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cmFunc.h:
+    newFile: !uuid '652a48af07a93d9a48ea9bfa818eebd6429045da'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cmInstr.h:
+    newFile: !uuid 'f474b0e6f362c73223e59af36ad30d2b87b9a61d'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_cmSimd.h:
+    newFile: !uuid '66bf5c2a725b6d1986ce32f2bd765ebe5aa481ea'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_sc000.h:
+    newFile: !uuid '514dbd81b9f776af5e0f29e65d075866c05a4b5a'
+    oldFile: null
+  /source/Drivers/CMSIS/Include/core_sc300.h:
+    newFile: !uuid '8bd18aa318a982b66863b4e413672eed272d2657'
+    oldFile: null
+  /source/Drivers/CMSIS/RTOS:
+    newFile: !uuid '4688223938a6a82b629811b77af187df685dac51'
+    oldFile: null
+  /source/Drivers/CMSIS/RTOS/Template:
+    newFile: !uuid 'd706fac174e98f3711ba60496e53aaa61c470c6d'
+    oldFile: null
+  /source/Drivers/CMSIS/RTOS/Template/cmsis_os.h:
+    newFile: !uuid '5fcfad2c2d588ce14fbcc7c283eb4a299fd8bef1'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver:
+    newFile: !uuid 'e98bd56a76fa2691eda5bbeceb47e3b39052e08e'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc:
+    newFile: !uuid 'f67912d5aa13a42a18e39c72a08282ca345e99fc'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/Legacy:
+    newFile: !uuid 'a1092edfce5298e93a4e87d2f7ef90da1070682a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+    newFile: !uuid '4a260a6e1859b389ede7be20f34d706a1f2ecd15'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32_assert_template.h:
+    newFile: !uuid 'b235c5c4488576f083db86b80e9bf896e72ee605'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:
+    newFile: !uuid '92c131066fd04bf161245f8a7ce75d70b3881551'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_adc.h:
+    newFile: !uuid '4f7dffeb6455adb140a105a531ebc1c20b530719'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_adc_ex.h:
+    newFile: !uuid 'a40358b122b2985f16dc601cb5114740716c4fa2'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_comp.h:
+    newFile: !uuid '530aa10b0ab3269bbb84e7da03ddce7c56c62b69'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_comp_ex.h:
+    newFile: !uuid '9c0d06c66fc83b155f728a2f2d7595d017b0c2f6'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_conf_template.h:
+    newFile: !uuid 'ae0cd01da0623236c830efff26940fb1b134c731'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_cortex.h:
+    newFile: !uuid '8146e24267d055f79710c1fcce2c3269c0e03f8c'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_crc.h:
+    newFile: !uuid 'ee165cf6504bcd9e4ba91395b81da567602ff33c'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_cryp.h:
+    newFile: !uuid '3181bd5cd9bb107b30a2a4338aeea59a23064aed'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_cryp_ex.h:
+    newFile: !uuid 'e4f833dab6ae2ea5dca1ec5e2b25919147fe9efe'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dac.h:
+    newFile: !uuid '7b32aa027bdc0de4ce181c82ca49b1c30b230bea'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dac_ex.h:
+    newFile: !uuid 'eb0b12e462e0f960a8a91904eb4e0930cd7c2784'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:
+    newFile: !uuid '16c05789947985319055d69e31a53b2c33d61ab3'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_dma.h:
+    newFile: !uuid '9ba85d34f2aa0fa730df0f84fe8858ac8b2bcaf9'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash.h:
+    newFile: !uuid '0344f44dbffdc99477fb6c925da6a2853798d536'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash_ex.h:
+    newFile: !uuid '4dce323f0b2584eebd5226930b1fe052e99e19a6'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_flash_ramfunc.h:
+    newFile: !uuid 'a4f4ba4294d08049db8605123c9d7771e5ae1deb'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio.h:
+    newFile: !uuid 'a78fc374c9ea10e80b9bc64929dbf17bb61c22e9'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio_ex.h:
+    newFile: !uuid 'b6a6c73328d04efd86544a8d254a82fa6f8b9633'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_i2c.h:
+    newFile: !uuid '6b0d2bc7b86480788eac3b78bd9d1440991ab639'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_i2s.h:
+    newFile: !uuid '6cc62b6a0887e789b5a0e508369a38dbe38d6e7a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_irda.h:
+    newFile: !uuid '3fcd4cb6b2b0551845d71b5cb754a3ba0c3e9459'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_iwdg.h:
+    newFile: !uuid 'cf0caa241ea321989c95f79c03ff6a2384cf7c3a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_lcd.h:
+    newFile: !uuid 'f6d2606b779607fb45ced89e4497b4331c3e4bc9'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_nor.h:
+    newFile: !uuid 'fa761461aa3bfdfd6ed254240c28959080625bc6'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_opamp.h:
+    newFile: !uuid 'ceca4d1927404c4fc0a45fc825c068daad011eb7'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_opamp_ex.h:
+    newFile: !uuid '3bdae2d474c754d4ee4652c7fe54819fcc05894c'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pcd.h:
+    newFile: !uuid 'eca87fb6f6595219c1b5d2e63c6d0c4f25da4912'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pcd_ex.h:
+    newFile: !uuid '69334911e9587e6f3f2e5a5bd566dc83ad392c36'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr.h:
+    newFile: !uuid 'b8d06d874b21329c0482580f569345e069a5e039'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr_ex.h:
+    newFile: !uuid 'd3c1ed6e8d04b95ef2cb39ea13cceb38e2939e32'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:
+    newFile: !uuid '3a45e7107324274ec76eb5697fb78088634be424'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc_ex.h:
+    newFile: !uuid 'd4de57b2569d8adfbaf8339e460dfcbeb71e5203'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc.h:
+    newFile: !uuid 'fa8cbb5e6af19e8e1ff570ad5e96acebdfd432fc'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc_ex.h:
+    newFile: !uuid '4399c251519ace752307cb8a7f306b112b7a515a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_sd.h:
+    newFile: !uuid 'd12bd4527d11ff0d951d86973556bdaa1c86977f'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_smartcard.h:
+    newFile: !uuid '134eb6b0c7f2cc6a70e524f28fb81b73fb4b7bb9'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_spi.h:
+    newFile: !uuid '2b154319f31aff505453f2216654412e8fac1a39'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_spi_ex.h:
+    newFile: !uuid 'a953bed4cea4428084fb308f3c72e90197a17bf2'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_sram.h:
+    newFile: !uuid '3c2482b951b9367b07f5a903cad22d2d80cf71a4'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim.h:
+    newFile: !uuid '99e3471ee56a81ef44eff38eefe3e229f9967d51'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_tim_ex.h:
+    newFile: !uuid '396437f0609eff4ae3a8061c3ce6cb8f508e2021'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:
+    newFile: !uuid '629f9f79e7fcde97887db476dd2a3efc4fbce00c'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_usart.h:
+    newFile: !uuid 'da43bb5b2849ec764185b23996301fdfe4fe4e60'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_wwdg.h:
+    newFile: !uuid '44a6cf3dd676602ae42c82c3b779510463cb8434'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_adc.h:
+    newFile: !uuid '1293b312d3a5d263576cf23158a3bb7a9c6c06fd'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_bus.h:
+    newFile: !uuid 'e3cfa85eb66747ea2c08b2c028f46da513c960e6'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_comp.h:
+    newFile: !uuid '87b12847bc8a72edb6562ffb9c7abd1603e98aa0'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_cortex.h:
+    newFile: !uuid 'f738947db1c69ba86c37139f7bf056e6cb62d013'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_crc.h:
+    newFile: !uuid '9d1136020b3af160de01f7ceb92f770bb78b1803'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_dac.h:
+    newFile: !uuid '34f5736f89e24992bdd0dce5ccdba2d15c615164'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_dma.h:
+    newFile: !uuid '0ce4eee48c2d59b48a514f780680f2bca8ebc213'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_exti.h:
+    newFile: !uuid '4e99f62c5e671ec4a59fddce15fffee605b8698a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_fsmc.h:
+    newFile: !uuid 'f7bede0f74c35fb391b634d9918fb3f7d0e4ec81'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_gpio.h:
+    newFile: !uuid '148cfaded818940e8f62cf6247c5d6fbcead382b'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_i2c.h:
+    newFile: !uuid 'dbe82c30bebeb889508f19bc8036c55949b04d52'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_iwdg.h:
+    newFile: !uuid '41d9022c5c594f26ad43d80d4e6afd3620e5d148'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_opamp.h:
+    newFile: !uuid '1f38d0b343d77d5b47e91e157c8707f007a6a0bd'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_pwr.h:
+    newFile: !uuid '8209d8b7ff82868ab312d1e28b603460baf723cb'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_rcc.h:
+    newFile: !uuid '06f109de849528f23844e5c2d1f38e7d2fb4fcdd'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_rtc.h:
+    newFile: !uuid '1df893788d3482e4150f2cf450c7abb136f6645d'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_sdmmc.h:
+    newFile: !uuid '48c7582642d8511baf017a21ac2b5bb8e119c42b'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_spi.h:
+    newFile: !uuid '1b1e03c2b076a5d96647f0ab3f77d7985f0ef322'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_system.h:
+    newFile: !uuid '219260a352e45ecc7c40a20a77657ce87f508d6d'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_tim.h:
+    newFile: !uuid 'a36b7815acbc7970d339c5f0c3d2f540b5989094'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_usart.h:
+    newFile: !uuid 'e55035dd367075ea69b446cb7cc525f3e6ac9422'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_utils.h:
+    newFile: !uuid '9994b8ce472b1e192fa62daa6c59c8b57d0fd505'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_ll_wwdg.h:
+    newFile: !uuid 'c868d0ab6179c9139eb26c9bd978b34602c739b7'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src:
+    newFile: !uuid '3229bb3b07bda18e5a35bba8e3b1208802a80b05'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.c:
+    newFile: !uuid 'a653e1f04cec210666b4f46bd7fb4ccf3125f566'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.c:
+    newFile: !uuid '8060cf0d27ebea46b83613639bad980822abc556'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.c:
+    newFile: !uuid '143068aaa3d81febca21e3f61c07b34d5c583234'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_comp.c:
+    newFile: !uuid '2b41d1149e0cbb275eaa9df0637e0518f967e389'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.c:
+    newFile: !uuid '5dbc7d8fb85305a60d143e9de2929f5f45e20534'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_crc.c:
+    newFile: !uuid 'f197ced82d60178f452cc844de8bbac31b463b45'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cryp.c:
+    newFile: !uuid '4d5a483658849140b985004a7b451113cf566204'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cryp_ex.c:
+    newFile: !uuid '105d6a95b28ad65693b074751577dff19db477be'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dac.c:
+    newFile: !uuid '818e6a8c7b6ca048a41474a6e136bd9185856c51'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dac_ex.c:
+    newFile: !uuid '2fb17f5fd1618463826c1737aef59dcbd0c6562e'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.c:
+    newFile: !uuid '07d25057ff6c5aa2308fd40340fd4b4e7d242002'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.c:
+    newFile: !uuid '77fd94a38ad05c9088e32d75fcd10c65565252e5'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.c:
+    newFile: !uuid '63d8b991c413c164632c77a7922312f9509fe09a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.c:
+    newFile: !uuid '5527f031075979160491b2db37656335b4babe4b'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c:
+    newFile: !uuid '4259ad8a5b23d7f3eff51d9c84c1c2c8a475f118'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c:
+    newFile: !uuid 'a84b90fff1dcc0ccdd2a451604f2e5a2b6b740ea'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2s.c:
+    newFile: !uuid '9e4151e1a7ef544fe6d635bfee4ee9f952652548'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_irda.c:
+    newFile: !uuid '10116f95cd4cb063aafb2c75fc615b3ae4859b4e'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_iwdg.c:
+    newFile: !uuid '190b4897c4666fd573b0f9b3d9b5ed2db63d37df'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_lcd.c:
+    newFile: !uuid '6d97cf7b3dc99252229f5640f6aa4b0451b92cfb'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_msp_template.c:
+    newFile: !uuid '04584ead1e450773322beb274588f528dd854678'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_nor.c:
+    newFile: !uuid '8a1edf3f001aa5d1cfc7bfa163e49e7b8772f929'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_opamp.c:
+    newFile: !uuid '252b7a9b19d7e497ffb20b26d4907427b4101238'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_opamp_ex.c:
+    newFile: !uuid 'b1a2317533b4708bd82eade00a898d2da44166fb'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pcd.c:
+    newFile: !uuid 'be83b825c8b7420dd118068f609ece8bd1c96907'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pcd_ex.c:
+    newFile: !uuid '65eccca8547d4cbf684389a0e0a5574d0334ea96'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.c:
+    newFile: !uuid '7307f5d39abcba7f5dc10199d47dd6d27ba6977d'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.c:
+    newFile: !uuid '421b433934946715a59ab87d60d49fd9296da7fe'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.c:
+    newFile: !uuid '4217e0bd16c76e14dbd988e2087ea22d7cedff8a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.c:
+    newFile: !uuid 'aea15adda5e3fb550e15fa0c2ccf6b50dcf98fa1'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.c:
+    newFile: !uuid '3e6adfcf3de0b81779636b21478f446048d28079'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.c:
+    newFile: !uuid 'f0f83d773e60883b16e89f03d10190cf6137fdb2'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_sd.c:
+    newFile: !uuid '31b144ac60ec4c5f028c3011e772ab4fbd12084a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_smartcard.c:
+    newFile: !uuid '776830343a9b7fded9623bb3b878d7643dcec09a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c:
+    newFile: !uuid '6309cd88bf78a5c51d0988b0a061bb585689f9d3'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.c:
+    newFile: !uuid 'a9e56c438f9f680d8caa50f7cd445a98ae51679c'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_sram.c:
+    newFile: !uuid '90524e30677d39fd793989fad3c72ce750247d64'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.c:
+    newFile: !uuid '1e3124415110b2d9045b34ccd38a7daad7343bdb'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.c:
+    newFile: !uuid 'c225e54a24814ba8b98baf76322e8870cbeb4673'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.c:
+    newFile: !uuid '89b5c63775d6ee9217030c462e2192b096eb389d'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.c:
+    newFile: !uuid '77c6a2ce0e755bd7aa1c1df08008f3094f28bf39'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_wwdg.c:
+    newFile: !uuid 'd4ba5e481a965d9b26a43f4d9fc8675ce41d4c74'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_adc.c:
+    newFile: !uuid 'a481e89933bb87d66ecb9b70b2c9aa28676cb46d'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_comp.c:
+    newFile: !uuid '5e74575ca50176dfd13fdfcf19e4f626530c2175'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_crc.c:
+    newFile: !uuid '552590f22d08f69fadea8599d4950d40dce70d89'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_dac.c:
+    newFile: !uuid 'fd21a450f8b6cf3815a7239426030073b3edbd23'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_dma.c:
+    newFile: !uuid '927e2fb3a598f21daedd84388662681021dde86a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_exti.c:
+    newFile: !uuid 'c8f1dc75535cc6ffb43edfd4346e1a9ff8987463'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_fsmc.c:
+    newFile: !uuid 'b5d58ad355db02802e89f4bf07628c28ff44d263'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_gpio.c:
+    newFile: !uuid '0276015fa6f0b196ec5d3bcb562804ac4db210f9'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_i2c.c:
+    newFile: !uuid '50a1ca45bad1e72849a363e248496fbfadf6b3c3'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_opamp.c:
+    newFile: !uuid '07d532c601c6612804b4ffd5fe1c2c274b917a96'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_pwr.c:
+    newFile: !uuid '6bdfb627c1662848a248dd7ebeca99bbac34d8a0'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_rcc.c:
+    newFile: !uuid 'a3d84ea039acabdb034c8b4278982beb58420354'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_rtc.c:
+    newFile: !uuid 'fae16654bb1583437a1925a4579fdba65451c78a'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_sdmmc.c:
+    newFile: !uuid 'a80f3c3f05861b642fd05332fb43490cfe63df10'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_spi.c:
+    newFile: !uuid 'c3325bd9f5d50c0bdd42841993f50f27d6177259'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_tim.c:
+    newFile: !uuid 'debc71fac0a30e58421876615b629977c92e62cb'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_usart.c:
+    newFile: !uuid 'e4ed868043333d70b0eea3418225899b4af4af33'
+    oldFile: null
+  /source/Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_utils.c:
+    newFile: !uuid '30d84fb828c4338080ec6780e6f764bf4c0f040c'
+    oldFile: null
+  /source/Inc:
+    newFile: !uuid 'c533cddc28de593a99822917a082e2cc7bc4dc55'
+    oldFile: null
+  /source/Inc/FreeRTOSConfig.h:
+    newFile: !uuid '4b1fe9e11753c1e4b7f4902339619ec7e3ee0b98'
+    oldFile: null
+  /source/Inc/angle_task.h:
+    newFile: !uuid '0ef1575e0e16e230f2db695578b5b0088b8d9590'
+    oldFile: null
+  /source/Inc/common.h:
+    newFile: !uuid '16f21730ea6b65fd53f0c5ed55276582dd3bd356'
+    oldFile: null
+  /source/Inc/gpio.h:
+    newFile: !uuid 'a9f26ce6b6dce1b734f9e66a2a900445b874735f'
+    oldFile: null
+  /source/Inc/i2c.h:
+    newFile: !uuid 'e70df8eca2bc4e140ff1038b85cb570d17794ef7'
+    oldFile: null
+  /source/Inc/main.h:
+    newFile: !uuid 'a1c3bb45e9e348ae1d5c5ce67a5858f4e586e45b'
+    oldFile: null
+  /source/Inc/scl3300.h:
+    newFile: !uuid 'e6ffb18594cdb8f2bb8fec7b2f74e914343b6e8b'
+    oldFile: null
+  /source/Inc/spi.h:
+    newFile: !uuid 'de41dac7eabba0b5986d6c4e48152aaa7ae5b5bb'
+    oldFile: null
+  /source/Inc/stm32l1xx_hal_conf.h:
+    newFile: !uuid '81cc9336f32f6e7de5efe565c814d6ed99e48fe9'
+    oldFile: null
+  /source/Inc/stm32l1xx_it.h:
+    newFile: !uuid 'f01a630a5ca48f9d3ac3ccb290493ec5d421450b'
+    oldFile: null
+  /source/Inc/uart_task.h:
+    newFile: !uuid '3d22fd54bd473d2badaab1155422cdd70bdd0665'
+    oldFile: null
+  /source/Inc/usart.h:
+    newFile: !uuid '8265659a46968811371e27dec36386a3859e61a6'
+    oldFile: null
+  /source/MDK-ARM:
+    newFile: !uuid '0a321c6d04d27e598035706a0a1487048b55294b'
+    oldFile: null
+  /source/MDK-ARM/JLinkLog.txt:
+    newFile: !uuid '6b4b0c8b9ba85109999f7a7eaf0dcf5c68605402'
+    oldFile: null
+  /source/MDK-ARM/JLinkSettings.ini:
+    newFile: !uuid '39b6d054aa31ff6cb3097d398593ba0320c250f6'
+    oldFile: null
+  /source/MDK-ARM/Nu_Link_Driver.ini:
+    newFile: !uuid '80bdb1133f9991bdc25d85112458afb1fa66c97c'
+    oldFile: null
+  /source/MDK-ARM/RTE:
+    newFile: !uuid '22f953de7d20109a033fa83e7d3e65e76d47401d'
+    oldFile: null
+  /source/MDK-ARM/RTE/RTE_Components.h:
+    newFile: !uuid 'ff34695edc623949b67d359131414d4384b8483b'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter:
+    newFile: !uuid '6076faedabc1671a277ca597cabb7e84055e276c'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter.uvguix.Administrator:
+    newFile: !uuid 'e17c37afef7e86048b4360a047cd643b5c004c47'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter.uvguix.lvchunhao:
+    newFile: !uuid '8c99df63a688c88035247981961f1a5629ae9d9d'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter.uvguix.lyuchunhao:
+    newFile: !uuid 'ff578e8531c2e0e6251955044c9bddb3c2936163'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter.uvoptx:
+    newFile: !uuid 'b87629a61d111c6313b042a9d7071297918a1a1c'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter.uvprojx:
+    newFile: !uuid '6af8afb6be2d0ac6343f93aeb7f44769accf7ffa'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/ExtDll.iex:
+    newFile: !uuid '6c0896e15eef399b69a3080bee28705c0df9a1f8'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/STM32L152X_FlowMeter.sct:
+    newFile: !uuid '404c8cbe21c2e1f2c6654c5c1cea9f0ccfcd022e'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/ads126x.crf:
+    newFile: !uuid '0c07d119b86de0e62d67adb6d29b52f75c8d75b8'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/angle_task.crf:
+    newFile: !uuid '65f64e9357d6271ae4ab7ccb10de7c67a399f3b7'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/cmsis_os.crf:
+    newFile: !uuid '6c854e403ceaf4c555903e9c39a258b8775feaf5'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/croutine.crf:
+    newFile: !uuid '2c19c18b11a9d78f73c4b6dcc5fd91b0b28ae30f'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/event_groups.crf:
+    newFile: !uuid 'ced21bf5c8052b8857dff939f1a02e85d25e9ce9'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/freertos.crf:
+    newFile: !uuid 'c37c752bd90de75971f5d285ad7eb93ff4c889a3'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/gpio.crf:
+    newFile: !uuid '0914a2e22f1097694dfb6dd3e366e8254ae5764e'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/heap_4.crf:
+    newFile: !uuid '43bbf60e92b8ff0af0b232dfac14cf2353f67cd2'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/i2c.crf:
+    newFile: !uuid '3836295467596fcad0b871267dd2fadd1c84bb79'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/list.crf:
+    newFile: !uuid 'ef08a3c94a1cd014c2405f4a639b1184a6a53e71'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/main.crf:
+    newFile: !uuid '12ecb75afa7b7c6e4cef0a90cc4336de24b73c40'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/port.crf:
+    newFile: !uuid '35d0fad08bd83b959415be8a6894b2bd0ff23543'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/queue.crf:
+    newFile: !uuid 'f78d6f8a2dc92ac7a1efd8a3becf035398f5e38b'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/sca100t.crf:
+    newFile: !uuid '215c507fe20983b0ee3ae87d579504551ef36261'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/scl3300.crf:
+    newFile: !uuid '748bcd7f98e6673399f5699fab53081786476b5b'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/spi.crf:
+    newFile: !uuid '7e572264c7cbb1aac70803147698d5fa508a76a6'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal.crf:
+    newFile: !uuid 'a5909c6785c4ab9c2a57057b63bb1227f9b1d309'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_cortex.crf:
+    newFile: !uuid '959dd8c2b4bdb88f997c93ccad34cf484f813005'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_dma.crf:
+    newFile: !uuid '31fead244e573a3f47576d74379628d0c3157a1c'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_flash.crf:
+    newFile: !uuid '02a5aaf7afd4b1fad12c6033e23a108954388372'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_flash_ex.crf:
+    newFile: !uuid 'ceefc962cef4807d09da076a366ee1e528a276f7'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_flash_ramfunc.crf:
+    newFile: !uuid 'b538ef11f963a4ee394d5333801aade16ae0c751'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_gpio.crf:
+    newFile: !uuid 'bd28b4bb9597025ce73b1953708d80e8c7318977'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_i2c.crf:
+    newFile: !uuid '23dd43237b98d34428b7bb53af4e7b41bd9152ae'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_msp.crf:
+    newFile: !uuid '9c631d05e1596c261109d3a20980e82461ef5ded'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_pwr.crf:
+    newFile: !uuid 'e5bcb9dee266d13042a3239334c8444efe963c98'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_pwr_ex.crf:
+    newFile: !uuid '3e0fb1c509d74c47b21018d7bbc05efbd8d07dfe'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_rcc.crf:
+    newFile: !uuid '0a2915c41c4f565eff38795737445062da751cc3'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_rcc_ex.crf:
+    newFile: !uuid 'd48187f0e805a47fc3f1a5cd915f75e770cf358f'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_spi.crf:
+    newFile: !uuid '49c9081f1aaf49bd0fd7e08e0c5b50262fbb17fb'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_spi_ex.crf:
+    newFile: !uuid 'f662e60d1941066557d1274b6ccb58ac9e47ec84'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_tim.crf:
+    newFile: !uuid '5a7c6c718f0972c23b7fc5ed1a9dd3e6d4f6961c'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_tim_ex.crf:
+    newFile: !uuid 'ddd2c60b83fc3e49dc6b053a7230ac181f0985c6'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_timebase_tim.crf:
+    newFile: !uuid 'f760c2ec38b9ed5fa6eb81b0339b84844380031c'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_hal_uart.crf:
+    newFile: !uuid 'f7cfd519394ee9881f6d7d515f41f4c402310318'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/stm32l1xx_it.crf:
+    newFile: !uuid '9d3ad0f9b098f853f5c14013b715d27c9d13b573'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/system_stm32l1xx.crf:
+    newFile: !uuid '0da197a584037194e390241f7e51d2f1c85aa155'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/tasks.crf:
+    newFile: !uuid '6d4fa0c56501f9e50f500daf56bbe138143afe45'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/timers.crf:
+    newFile: !uuid '6433f7628a8d4538ed1f76e045ed72d3206b6e43'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/uart_task.crf:
+    newFile: !uuid '6711415544b263ec1553e57a17dd9c865bc43591'
+    oldFile: null
+  /source/MDK-ARM/STM32L152X_FlowMeter/usart.crf:
+    newFile: !uuid 'a12ba595d2837b005526a78a17fb764d9960c0be'
+    oldFile: null
+  /source/MDK-ARM/startup_stm32l152xb.s:
+    newFile: !uuid 'b6ff273157947712f3eea67058404cc372b5aaa8'
+    oldFile: null
+  /source/Middlewares:
+    newFile: !uuid '8b25f8e923b5b335f2963c0c54956f752cfae66a'
+    oldFile: null
+  /source/Middlewares/Third_Party:
+    newFile: !uuid 'ea76cfe04348f9ed0145a521e0ac6b6b20deb97d'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS:
+    newFile: !uuid '93b94e5c84740837ec9cff5fe10408b01845b5a6'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source:
+    newFile: !uuid '74b09fe47bf2f69b92c8affac4634e0d8cf659dd'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS:
+    newFile: !uuid '434c5f88373b50dcec48acc94cd48cb2123236b0'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:
+    newFile: !uuid '88a640809203d77d839b57ad344b45fa9d1c8941'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
+    newFile: !uuid 'ea68b4df977588c1e7f1b0973b5687446ef9d1b7'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/croutine.c:
+    newFile: !uuid 'ccc9bb2c98e2a50e4cbb8459ccbf8003c88ff0ae'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:
+    newFile: !uuid 'dad975f8717834315b92821bf369b50df607f835'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include:
+    newFile: !uuid '78b11ef1718ff0ce507b79208326e70f6a295c14'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
+    newFile: !uuid '0e80d9b72062b4e487d10f66c1e30c2b5ff9177b'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOSConfig_template.h:
+    newFile: !uuid 'd87d4a0c0230670b4c2a286d797fe6ef3e60c8c7'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h:
+    newFile: !uuid 'b75025c42874b844228ff5737f5971d006aa51f8'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h:
+    newFile: !uuid 'fcbd9f588487188558c16aca2bcfe7d45a874adc'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
+    newFile: !uuid 'c339193788366b283c7b6974a099db7b4bdee6ad'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
+    newFile: !uuid 'b2ac9725a722f318fc57bd42da0015d327a0f37c'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
+    newFile: !uuid 'd7164f702f63808f9ef2e3194fee83a58ec695dc'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+    newFile: !uuid '4ba5ea3dfbe7828962ee340afcda78468f34b02d'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
+    newFile: !uuid 'bbf0bcf1b2553b197b447f0fe0d75556d672b388'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+    newFile: !uuid 'ffe46f4c479b8fae092c3ebf2a5949a32d876844'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
+    newFile: !uuid 'd6fb808e7cc8d1448c8f752c716273e619acb79c'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:
+    newFile: !uuid '405014c6ac01a02ad839d325f7f48031fb3b9d41'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+    newFile: !uuid 'f2c0e1728555cc739eff6a9fb451ba470c72abaf'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+    newFile: !uuid 'c1186b94aa08a9eb566a8190b5405d872737e462'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/list.c:
+    newFile: !uuid 'ce20cd863a3c75291feffa1b96a4092706529adc'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable:
+    newFile: !uuid 'a69659dcd993367426200ad1861743af2cdd69e5'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang:
+    newFile: !uuid 'ef789726951438420ac404ef01c50afb39969a19'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c:
+    newFile: !uuid '06958d371f2fb30c68e66ef50a9a9ffc28e92775'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_2.c:
+    newFile: !uuid '96220e935f394726da4f06fcda27d4b9abf4180d'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c:
+    newFile: !uuid 'da85a58ddeae6de2c8051d8fd2f93446921ea91a'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:
+    newFile: !uuid '97855c46ac31e8e59b765914b93b67ede070bb91'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_5.c:
+    newFile: !uuid '9d92021a9a0be21dfe10a2ca05b85b0616d4e38c'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS:
+    newFile: !uuid '2a5bab15ae4a4f380f3ead5df118007a6d0f554d'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3:
+    newFile: !uuid '2c464bc200df27af9ee02e9b87558992796e92b0'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c:
+    newFile: !uuid '4f49a56eaa820c4575e55b84361e1d8474df6746'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h:
+    newFile: !uuid '422833b95b9da89d748235ad44b81438d0be03e1'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/queue.c:
+    newFile: !uuid '25fcc2657a345e7fe8c0182692e9dff0097d2d59'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:
+    newFile: !uuid 'b363bde6c4ea51593fda3057c4f2c53119758041'
+    oldFile: null
+  /source/Middlewares/Third_Party/FreeRTOS/Source/timers.c:
+    newFile: !uuid '560573bb489ec4be63f0823acba19c5b9fa4188b'
+    oldFile: null
+  /source/STM32L152X_FlowMeter.ioc:
+    newFile: !uuid '4f7bf25c885fd4a8a105312bbee5d79358bc1a37'
+    oldFile: null
+  /source/STM32L152X_FlowMeter.pdf:
+    newFile: !uuid '2012dd72f0e8563721314041138ed391c0c28732'
+    oldFile: null
+  /source/STM32L152X_FlowMeter.txt:
+    newFile: !uuid '26dc0c3ca69b78fe17c91a6abd804b3d23818dbe'
+    oldFile: null
+  /source/Src:
+    newFile: !uuid 'c604c29fad5b6ddf8c7c21048bd94e1c0718b1b8'
+    oldFile: null
+  /source/Src/angle_task.c:
+    newFile: !uuid '51b20ce1326f75088abaaf692d20f8dd94aacec0'
+    oldFile: null
+  /source/Src/freertos.c:
+    newFile: !uuid 'e84cd80d7f149227008c0777130e7f82af857c4b'
+    oldFile: null
+  /source/Src/gpio.c:
+    newFile: !uuid '821ef7ca40efabb3d4a0776649cb447af8fa8c2e'
+    oldFile: null
+  /source/Src/i2c.c:
+    newFile: !uuid '6e2dca598e7c6e375fc1d77f28fc323138d79119'
+    oldFile: null
+  /source/Src/main.c:
+    newFile: !uuid 'bb9369cfda595f1517d7cb693cb8b6e4a8318f38'
+    oldFile: null
+  /source/Src/scl3300.c:
+    newFile: !uuid 'a25cd474280681dabccff2c6204ef320ea437bae'
+    oldFile: null
+  /source/Src/spi.c:
+    newFile: !uuid 'c9c183abaca9c21efc7748f1bafa50f74890e7b0'
+    oldFile: null
+  /source/Src/stm32l1xx_hal_msp.c:
+    newFile: !uuid 'f4d0dc215ab986146114345762d776fe516178a1'
+    oldFile: null
+  /source/Src/stm32l1xx_hal_timebase_TIM.c:
+    newFile: !uuid '355cb01845e424fde299cdc448cf9d820a30d477'
+    oldFile: null
+  /source/Src/stm32l1xx_it.c:
+    newFile: !uuid '3c51706e7ec98b07ec3e7949ebc550a22df93bd3'
+    oldFile: null
+  /source/Src/system_stm32l1xx.c:
+    newFile: !uuid 'c249b576020d2de63fb50cfc8683cbfcc9126175'
+    oldFile: null
+  /source/Src/uart_task.c:
+    newFile: !uuid '8436bd4b169356ae06acffb40bdaa8f70c6c7d29'
+    oldFile: null
+  /source/Src/usart.c:
+    newFile: !uuid '98a3bc7626e99c407a1999785c5f2ad23c4bba56'
+    oldFile: null
+gitCommitId: !uuid 'b3882b32295a2386b862f795a7a97d3cda012488'
 renames: {
   }
-revisionId: 1
+revisionId: 2
