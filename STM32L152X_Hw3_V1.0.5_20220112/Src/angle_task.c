@@ -152,7 +152,13 @@ void User_ReadEEPROMConfig(void)
 			  g_stAngleData.dbCalibratTmpeZ = unFloatValue.ftValue;
 		}
 }
-		TickType_t xNowTime, xNextTime;
+		
+
+TickType_t xNowTime, xNextTime;
+uint32_t g_u32TemperatureCnt = 0;      //温度获取计数
+double g_dbTemperatureRate = 0.0;      //温度变化率
+double g_dbTemperatureLast = 0.0;      //1min前温度
+double g_dbTemperatureVale = 0.00286;  //补偿系数
 /*
  * 函数名    ：vTaskOperationAngle()
  * 功能      : 角度处理函数
@@ -167,7 +173,6 @@ void vTaskOperationAngle(void *pArgs)
 	  uint16_t u16TmpADCValue = 0;
 	  uint32_t i = 0;
 	  //double dbTmpValue = 0.0;
-
 	
 		//EEPROM延时
 		vTaskDelay(100);
@@ -188,6 +193,7 @@ void vTaskOperationAngle(void *pArgs)
 		g_stAngleData.u16TMPEIndex = 0;
 		g_stAngleData.u16AxOUTxIndex = 0;
 		
+		g_u64TimeBase1000ms = 0;
 		g_u64TimeBase1000ms = 0;
 		xNextTime = xTaskGetTickCount();
 	
@@ -232,8 +238,7 @@ void vTaskOperationAngle(void *pArgs)
 			else
 			{
 					//PRINT("Read AngY error\n");
-			}
-			
+			}		
 			
 			#if 1
 			//Z轴输出：原始输出
@@ -282,8 +287,7 @@ void vTaskOperationAngle(void *pArgs)
 			{
 					g_stAngleData.u16AxOUTxIndex = 0;
 			}
-			
-			
+				
 			/* 最终角度：平滑处理 */
 			g_stAngleData.dbAverageANGX = 0.0;
 			g_stAngleData.dbAverageANGY = 0.0;
@@ -300,10 +304,11 @@ void vTaskOperationAngle(void *pArgs)
 			g_stAngleData.dbAngleY = g_stAngleData.dbAverageANGY/ADS_BUFF_SIZE;
 			g_stAngleData.dbAngleZ = g_stAngleData.dbAverageANGZ/ADS_BUFF_SIZE;
 			g_stAngleData.dbTMPE   = g_stAngleData.dbAverageTMPE/ADS_BUFF_SIZE;
+
 			
 			#if 0
+			//温度补偿算法3：Modify by lvch@2020-06-07 15:56
 			//根据标定时的温度值进行补偿(温度下降1°角度输出上升0.007°)
-			//先添加Y轴做测试 Add 2020-06-07 15:56
 			//温度上升,角度减去补偿值/温度下降,角度加上补偿值
 			g_stAngleData.dbAngleOffcorrX = g_stAngleData.dbAngleX + (g_stAngleData.dbCalibratTmpeX - g_stAngleData.dbTMPE)\
 					*(float)AGNLE_OFFSET_VALUE;
@@ -311,8 +316,10 @@ void vTaskOperationAngle(void *pArgs)
 					*(float)AGNLE_OFFSET_VALUE;
 			g_stAngleData.dbAngleOffcorrZ = g_stAngleData.dbAngleZ + (g_stAngleData.dbCalibratTmpeZ - g_stAngleData.dbTMPE)\
 					*(float)AGNLE_OFFSET_VALUE;
-			#else
-			//Modify by lvch@2022-01-12
+			#endif
+			
+			#if 0
+			//温度补偿算法4：Modify by lvch@2022-01-12
 			//参考<<角度模块温度补偿算法更新20220112-吴信超>>
 			//温度比25C每升高1C补偿-0.00286 降低1C补偿+0.00286与标定时的温度无关
 			g_stAngleData.dbAngleOffcorrX = g_stAngleData.dbAngleX - (g_stAngleData.dbTMPE - 25.0)*(float)AGNLE_OFFSET_VALUE;
@@ -320,8 +327,51 @@ void vTaskOperationAngle(void *pArgs)
 			g_stAngleData.dbAngleOffcorrZ = g_stAngleData.dbAngleZ - (g_stAngleData.dbTMPE - 25.0)*(float)AGNLE_OFFSET_VALUE;			
 			#endif
 			
+			//温度补偿算法5：Modify by lvch@2022-01-20
+			//动态调整补偿系数参考<<温补算法20220120.doc>>
+			g_u32TemperatureCnt++;
+			if((g_u32TemperatureCnt == ADS_BUFF_SIZE) && (g_u64TimeBase1000ms == 0))
+			{
+				  g_dbTemperatureLast = g_stAngleData.dbTMPE;
+			}
+			xNowTime = xTaskGetTickCount();
+			if(xNowTime >= xNextTime + 1000*60)
+			{
+				  g_u64TimeBase1000ms++;
+					xNextTime = xTaskGetTickCount();
+
+					//温度变化率1min温度变化
+				  g_dbTemperatureRate = g_stAngleData.dbTMPE - g_dbTemperatureLast;
+					g_dbTemperatureRate = fabs(g_dbTemperatureRate);
+					g_dbTemperatureLast = g_stAngleData.dbTMPE;
+				  
+				  //计算温度补偿系数
+				  if(g_dbTemperatureRate <= 0.1)
+					{
+							g_dbTemperatureVale = 0.00286;
+					}
+					else if(g_dbTemperatureRate < 0.25)
+					{
+							g_dbTemperatureVale = 0.00313;
+					}
+					else if(g_dbTemperatureRate < 0.35)
+					{
+							g_dbTemperatureVale = 0.00341;						
+					}
+					else
+					{
+							g_dbTemperatureVale = 0.00396;						
+					}
+			}
+			
+			//大于25C -补偿 小于25C +补偿
+			g_stAngleData.dbAngleOffcorrX = g_stAngleData.dbAngleX - (g_stAngleData.dbTMPE - 25.0)*g_dbTemperatureVale;
+			g_stAngleData.dbAngleOffcorrY = g_stAngleData.dbAngleY - (g_stAngleData.dbTMPE - 25.0)*g_dbTemperatureVale;
+			g_stAngleData.dbAngleOffcorrZ = g_stAngleData.dbAngleZ - (g_stAngleData.dbTMPE - 25.0)*g_dbTemperatureVale;	
+			
+			
 			#if 0
-			//温度补偿算法2：Add 2020-06-28(约1s但不太准确)
+			//温度补偿算法2：Modify by lvch@2020-06-28(约1s但不太准确)
 			xNowTime = xTaskGetTickCount();
 			if(xNowTime >= xNextTime + 1000)
 			{
@@ -344,14 +394,14 @@ void vTaskOperationAngle(void *pArgs)
 							g_stAngleData.dbTMPEOffCorrY = 0.0322*(dbTmpValue/6) - 0.00186;
 					}
 			}
-
 			//温度补偿 = 补偿前角度 - (温漂系数*温度变化量)
 			g_stAngleData.dbAngleOffcorrY = g_stAngleData.dbAngleY - (g_stAngleData.dbTMPEOffCorrY*dbTmpValue);
 			#endif
 			
 			
 			#if 0
-			//Z轴关闭由反正切arctan(abs(Y/X))调整于2019.12.29
+			//Modify by lvch@2019-12-29
+			//Z轴关闭由反正切arctan(abs(Y/X))
 			dbTmpValue = fabs(g_stAngleData.dbAngleY/g_stAngleData.dbAngleX);
 			g_stAngleData.dbAngleZ = atan(dbTmpValue)*180.0/PI;;
 			if(g_stAngleData.dbAngleY * g_stAngleData.dbAngleZ >= 0)
@@ -359,9 +409,12 @@ void vTaskOperationAngle(void *pArgs)
 					g_stAngleData.dbAngleZ = g_stAngleData.dbAngleZ * -1.0;
 			}
 			#else
-			//要求关闭A轴输出,Y轴取反 调整于2019.12.30
-			//g_stAngleData.dbAngleY = g_stAngleData.dbAngleY * (-1.0);
-			//g_stAngleData.dbAngleX = g_stAngleData.dbAngleZ;
+			//Modify by lvch@2019-12-30
+			//要求关闭A轴输出,Y轴取反 
+			/*
+			g_stAngleData.dbAngleY = g_stAngleData.dbAngleY * (-1.0);
+			g_stAngleData.dbAngleX = g_stAngleData.dbAngleZ;
+			*/
 			#endif
 			/**************************************************************************************************/
 			

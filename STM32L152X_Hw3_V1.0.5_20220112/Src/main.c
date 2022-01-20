@@ -105,7 +105,7 @@ StTaskObj g_stTaskObjs[] =
 			"OperateAngle",
 			vTaskOperationAngle,
 			configMAX_PRIORITIES - 2,
-			100,
+			200,
 			NULL,
     },		
 #endif
