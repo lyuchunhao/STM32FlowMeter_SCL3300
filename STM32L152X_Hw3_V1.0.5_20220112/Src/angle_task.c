@@ -88,6 +88,30 @@ void EEPROM_WrteBytes(uint32_t u32Addr, uint32_t u32Data)
     HAL_FLASHEx_DATAEEPROM_Lock();
 }
 
+uint8_t User_ReadEEPROMUartBraudRate(void)
+{
+		uint8_t u8BraudRate = 1;
+		Unfloat unFloatValue;
+	
+	  EEPROM_ReadBytes(CONFIG_UART_BRAUD, unFloatValue.u8Data, CONFIG_UART_SIZE);
+	  u8BraudRate = unFloatValue.u32Value;
+	
+		return u8BraudRate;
+}	
+
+void User_SetEEPROMUartBraudRate(uint8_t u8BraudRate)
+{
+		Unfloat unFloatValue;
+	
+		unFloatValue.u32Value = u8BraudRate;
+		if((unFloatValue.u32Value >= 1)&&(unFloatValue.u32Value <= 8))
+		{
+				EEPROM_WrteBytes(CONFIG_UART_BRAUD, unFloatValue.u32Value);
+		}	
+	
+}
+
+
 void User_ReadEEPROMConfig(void)
 {
 	  uint8_t u8AngleConfigData[CONFIG_INFO_SIZE] = {0};
@@ -188,6 +212,9 @@ void vTaskOperationAngle(void *pArgs)
 					g_stAngleData.dbAngleZeroY,g_stAngleData.dbAngleZeroZ,g_stAngleData.dbCalibratKValuX,\
 					g_stAngleData.dbCalibratKValuY,g_stAngleData.dbCalibratKValuZ,\
 	        g_stAngleData.dbCalibratTmpeX, g_stAngleData.dbCalibratTmpeY, g_stAngleData.dbCalibratTmpeZ);
+	
+	  //u8Ret = User_ReadEEPROMUartBraudRate();
+		PRINT("BraudRate: %d\n", g_u8UartBraudRate);
 	
 		vTaskDelay(10);
 		g_stAngleData.u16TMPEIndex = 0;

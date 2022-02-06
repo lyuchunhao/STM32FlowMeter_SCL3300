@@ -17,6 +17,7 @@
 #include "stdint.h"
 	
 	 
+extern uint8_t g_u8UartBraudRate;
 extern uint8_t g_u8Rs232RecvCompeletFlag;
 	 
 void vTaskUartWrite(void *pArgs);

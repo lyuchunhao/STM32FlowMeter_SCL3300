@@ -23,6 +23,8 @@
 //#define  AGNLE_OFFSET_VALUE 0.0056	 
 #define  AGNLE_OFFSET_VALUE 0.00286	
 	
+#define  CONFIG_UART_BRAUD  0x06          //串口波特率：1-9600 2-14400 3-19200 4-38400 5-57600 6-115200 7-128000 8-256000 其他-9600
+#define  CONFIG_UART_SIZE   4             //波特率地址大小
 #define  CONFIG_INFO_ADDR	  0x10          //配置地址
 #define  CONFIG_INFO_SIZE   64            //配置大小
 	 
@@ -129,6 +131,8 @@ StADS126xData User_ADS126xReadADC1(void);
 void EEPROM_ReadBytes(uint16_t Addr, uint8_t *Buffer, uint16_t Length);
 void EEPROM_WrteBytes(uint32_t u32Addr, uint32_t u32Data);
 	 
+uint8_t User_ReadEEPROMUartBraudRate(void);
+void User_SetEEPROMUartBraudRate(uint8_t u8BraudRate);
 
 #ifdef __cplusplus
 }

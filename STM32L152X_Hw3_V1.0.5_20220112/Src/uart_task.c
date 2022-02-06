@@ -14,6 +14,7 @@
 
 
 //中断接收处理相关参数 
+uint8_t g_u8UartBraudRate = 0;
 uint8_t g_u8Rs232RecvLen  = 0; 
 uint8_t g_u8Rs232RecvStep = STEP_FIND_HEAD; 
 uint8_t g_u8Rs232RecvCompeletFlag = 0;         //1-接收完成 0-没有完成继续接收
@@ -1114,6 +1115,7 @@ void vTaskUartRecev(void *pArgs)
 										          EEPROM_WrteBytes(ANGLE_TX_ADDR, unFloatValue.u32Value);
 															EEPROM_WrteBytes(ANGLE_TY_ADDR, unFloatValue.u32Value);
 										          EEPROM_WrteBytes(ANGLE_TZ_ADDR, unFloatValue.u32Value);
+															
 											
 															PRINT("Factory Set Success\n");
 															break;
@@ -1760,6 +1762,29 @@ void vTaskUartRecev(void *pArgs)
 															s32SendLen = 17;	
 															PostUartWriteMsg(u8SendData, s32SendLen);
 															break;
+										
+										case 0x20:
+															g_u8UartBraudRate = u8Rs232KpBuff[4];
+															if((g_u8UartBraudRate >= 1)&&(g_u8UartBraudRate <= 8))
+															{
+																	//EEPROM写0程序会卡死,暂时未找到原因
+																	User_SetEEPROMUartBraudRate(g_u8UartBraudRate);
+																	PRINT("Uart BraudRate Set Success\n");
+																	vTaskDelay(20);
+																	//关闭串口(实测：关闭串口反而无法成功重新初始化串口)
+																	//RS232_IT_DIABLE();
+																	//HAL_UART_MspDeInit(&huart1);
+																	//初始化串口
+																	User_USART1_UART_Init(g_u8UartBraudRate);
+																	RS232_IT_ENABLE();
+																	vTaskDelay(100);
+															}
+															else
+															{
+																	PRINT("Uart BraudRate Set Failed\n");
+															}
+										          break;
+										
 										
 										default  :
 											      break;

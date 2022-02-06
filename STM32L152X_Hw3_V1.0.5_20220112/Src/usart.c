@@ -48,7 +48,55 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN 0 */
+void User_USART1_UART_Init(uint8_t u8BraduRate)
+{
+	uint32_t u32BaudRate;
+	
+	switch(u8BraduRate)
+	{
+		case 1:
+					 u32BaudRate = 9600;
+					 break;
+		case 2:
+					 u32BaudRate = 14400;
+					 break;
+		case 3:
+					 u32BaudRate = 19200;
+					 break;
+		case 4:
+					 u32BaudRate = 38400;
+					 break;
+		case 5:
+					 u32BaudRate = 57600;
+					 break;
+		case 6:
+					 u32BaudRate = 115200;
+					 break;
+		case 7:
+					 u32BaudRate = 128000;
+					 break;
+		case 8:
+					 u32BaudRate = 256000;
+					 break;
+		default:
+					 u32BaudRate = 9600;
+		       break;
+	}
+	
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = u32BaudRate;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
 
+}
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;

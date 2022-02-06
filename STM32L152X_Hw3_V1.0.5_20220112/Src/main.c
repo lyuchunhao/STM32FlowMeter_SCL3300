@@ -196,7 +196,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART1_UART_Init();
+  //MX_USART1_UART_Init();
+	g_u8UartBraudRate = User_ReadEEPROMUartBraudRate();
+	User_USART1_UART_Init(g_u8UartBraudRate);
   MX_SPI1_Init();
   MX_I2C2_Init();
 

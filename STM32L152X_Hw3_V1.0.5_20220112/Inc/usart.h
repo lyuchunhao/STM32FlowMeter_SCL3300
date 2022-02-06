@@ -53,7 +53,7 @@
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+extern void User_USART1_UART_Init(uint8_t u8BraduRate);
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;
