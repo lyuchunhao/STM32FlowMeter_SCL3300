@@ -2,10 +2,37 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '5191207ad306c5d40b742edef6e4089088ef8a71'
-    oldFile: !uuid '6ad1ed338fe1c6a88edfc6516632dafd20f57ee0'
-gitCommitId: !uuid '26dcafe8c961d1686aa2715e19dbc70a03441139'
+  /STM32L152X_Hw3_V1.0.5_20220112:
+    newFile: !uuid 'b6bb283effd627a0d0286e3d7d509b922b4d046f'
+    oldFile: !uuid '60d94b18ff096686229cb91e95aed6bac253d026'
+  /STM32L152X_Hw3_V1.0.5_20220112/Inc:
+    newFile: !uuid 'ae84f9dbe8d598abc683c145245ba2b3d7d6a1d2'
+    oldFile: !uuid 'c533cddc28de593a99822917a082e2cc7bc4dc55'
+  /STM32L152X_Hw3_V1.0.5_20220112/Inc/angle_task.h:
+    newFile: !uuid 'f1df86a630d6b341df76d5475bc1f9018d409c6e'
+    oldFile: !uuid '0ef1575e0e16e230f2db695578b5b0088b8d9590'
+  /STM32L152X_Hw3_V1.0.5_20220112/Inc/uart_task.h:
+    newFile: !uuid '05d1edea2aaae9eee76f7ca9be18058f058a2e7c'
+    oldFile: !uuid '3d22fd54bd473d2badaab1155422cdd70bdd0665'
+  /STM32L152X_Hw3_V1.0.5_20220112/Inc/usart.h:
+    newFile: !uuid '531ef48d25d540b8d2a18ae63b36d43392f10efe'
+    oldFile: !uuid '8265659a46968811371e27dec36386a3859e61a6'
+  /STM32L152X_Hw3_V1.0.5_20220112/Src:
+    newFile: !uuid '1ee2b495b433e4e0e0467a1eaad0febf609fff52'
+    oldFile: !uuid '21376887841fb71ea5caf70ba399b89b5379ac2b'
+  /STM32L152X_Hw3_V1.0.5_20220112/Src/angle_task.c:
+    newFile: !uuid 'a4fa5acda6a198bcacaa1c830cb79541198ee246'
+    oldFile: !uuid '1e438a9800b9c0c972edf171f8dca678b6355179'
+  /STM32L152X_Hw3_V1.0.5_20220112/Src/main.c:
+    newFile: !uuid '50fe4dfc207833806500afaab04f14fc24fc47b8'
+    oldFile: !uuid '6ea96a4edcc2205e43b9da547204d8de7695ebd4'
+  /STM32L152X_Hw3_V1.0.5_20220112/Src/uart_task.c:
+    newFile: !uuid 'e9750646902137720ba47e610a1774c01e823481'
+    oldFile: !uuid '8436bd4b169356ae06acffb40bdaa8f70c6c7d29'
+  /STM32L152X_Hw3_V1.0.5_20220112/Src/usart.c:
+    newFile: !uuid '272bd90d5abe64d88a9540bc97df862c5fca8e84'
+    oldFile: !uuid '98a3bc7626e99c407a1999785c5f2ad23c4bba56'
+gitCommitId: !uuid 'f8547604d97373428e4a5534ac55661175b90e73'
 renames: {
   }
-revisionId: 9
+revisionId: 10
